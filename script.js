@@ -279,24 +279,24 @@ const sections = {
   },
   nonveg: {
     html: generateCards('🔥 Non-Veg Feast – Royal & Spicy', [
-      { name: 'Chicken Curry', price: '₹249' , img: './Hero/Non Veg/chicken_curry.png' },
-      { name: 'Mutton Kabab', price: '₹299' , img: './Hero/Non Veg/mutton_kabab.png' },
-      { name: 'Butter Chicken', price: '₹269' , img: './Hero/Non Veg/butter_chicken.png' },
-      { name: 'Chicken Tikka Masala', price: '₹259' , img: './Hero/Non Veg/chicken_tikka_masala.png' },
-      { name: 'Mutton Rogan Josh', price: '₹299' , img: './Hero/Non Veg/mutton_rogan_josh.png' },
-      { name: 'Chicken Korma', price: '₹239' , img: './Hero/Non Veg/chicken_korma.png' },
-      { name: 'Mutton Biryani', price: '₹289' , img: './Hero/Non Veg/mutton_biryani.png' },
-      { name: 'Chicken Biryani', price: '₹229' , img: './Hero/Non Veg/chicken_biryani.png' },
-      { name: 'Tandoori Chicken (Half)', price: '₹199' , img: './Hero/Non Veg/tandoori_chicken(half).png' },
-      { name: 'Tandoori Chicken (Full)', price: '₹349' , img: './Hero/Non Veg/tandoori_chicken(full).png' },
-      { name: 'Egg Curry', price: '₹149' , img: './Hero/Non Veg/egg_curry.png' },
-      { name: 'Bhuna Chicken', price: '₹219' , img: './Hero/Non Veg/bhuna_chicken.png' },
-      { name: 'Mutton Keema Pav', price: '₹199' , img: './Hero/Non Veg/mutton_keema_pav.png' },
-      { name: 'Spicy Grilled Chicken', price: '₹249' , img: './Hero/Non Veg/spicy_grilled_chicken.png' },
-      { name: 'Hyderabadi Dum Chicken', price: '₹269' , img: './Hero/Non Veg/hyderabadi_dum_chicken.png' },
-      { name: 'Masala Fried Chicken', price: '₹229' , img: './Hero/Non Veg/masala_fried_chicken.png' },
-      { name: 'Afghani Chicken', price: '₹289' , img: './Hero/Non Veg/afghani_chicken.png' },
-      { name: 'Chicken Changezi', price: '₹289' , img: './Hero/Non Veg/chicken_changezi.png' }
+      { name: 'Chicken Curry', price: '₹249' , img: './Hero/Non veg/chicken_curry.png' },
+      { name: 'Mutton Kabab', price: '₹299' , img: './Hero/Non veg/mutton_kabab.png' },
+      { name: 'Butter Chicken', price: '₹269' , img: './Hero/Non veg/butter_chicken.png' },
+      { name: 'Chicken Tikka Masala', price: '₹259' , img: './Hero/Non veg/chicken_tikka_masala.png' },
+      { name: 'Mutton Rogan Josh', price: '₹299' , img: './Hero/Non veg/mutton_rogan_josh.png' },
+      { name: 'Chicken Korma', price: '₹239' , img: './Hero/Non veg/chicken_korma.png' },
+      { name: 'Mutton Biryani', price: '₹289' , img: './Hero/Non veg/mutton_biryani.png' },
+      { name: 'Chicken Biryani', price: '₹229' , img: './Hero/Non veg/chicken_biryani.png' },
+      { name: 'Tandoori Chicken (Half)', price: '₹199' , img: './Hero/Non veg/tandoori_chicken(half).png' },
+      { name: 'Tandoori Chicken (Full)', price: '₹349' , img: './Hero/Non veg/tandoori_chicken(full).png' },
+      { name: 'Egg Curry', price: '₹149' , img: './Hero/Non veg/egg_curry.png' },
+      { name: 'Bhuna Chicken', price: '₹219' , img: './Hero/Non veg/bhuna_chicken.png' },
+      { name: 'Mutton Keema Pav', price: '₹199' , img: './Hero/Non veg/mutton_keema_pav.png' },
+      { name: 'Spicy Grilled Chicken', price: '₹249' , img: './Hero/Non veg/spicy_grilled_chicken.png' },
+      { name: 'Hyderabadi Dum Chicken', price: '₹269' , img: './Hero/Non veg/hyderabadi_dum_chicken.png' },
+      { name: 'Masala Fried Chicken', price: '₹229' , img: './Hero/Non veg/masala_fried_chicken.png' },
+      { name: 'Afghani Chicken', price: '₹289' , img: './Hero/Non veg/afghani_chicken.png' },
+      { name: 'Chicken Changezi', price: '₹289' , img: './Hero/Non veg/chicken_changezi.png' }
     ], 'nonveg'),
     theme: 'theme-nonveg'
   },
@@ -458,3 +458,4 @@ window.addEventListener('DOMContentLoaded', () => {
   header.classList.add(theme);
   footer.classList.add(theme);
 });
+
