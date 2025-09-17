@@ -103,7 +103,7 @@ const sections = {
             <h3>Chocolate Cake</h3>
           </div>
           <div class="dish-card">
-            <img src="./Hero/Ice Cream/strawberry_swirl.png" alt="Featured Dish 3">
+            <img src="./Hero/Ice cream/strawberry_swirl.png" alt="Featured Dish 3">
             <h3>Strawberry Swirl</h3>
           </div>
         </div>
@@ -458,4 +458,5 @@ window.addEventListener('DOMContentLoaded', () => {
   header.classList.add(theme);
   footer.classList.add(theme);
 });
+
 
